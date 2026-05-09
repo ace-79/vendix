@@ -12,7 +12,7 @@
             "driver": "MySQL",
             "name": "my database",
             "database": "sales_management",
-            "username": "Ace"
+            "username": "root"
         }
     ]
 }
