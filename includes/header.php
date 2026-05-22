@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="vendix-csrf-token" content="<?php echo htmlspecialchars(getCsrfToken(), ENT_QUOTES, 'UTF-8'); ?>">
     <title>Vendix - Smart Ecommerce System</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="<?php 
+        $inPages = strpos($_SERVER['PHP_SELF'], 'pages/') !== false;
+        echo ($inPages ? '../assets/css/font-awesome.css' : 'assets/css/font-awesome.css'); 
+    ?>">
     <link rel="stylesheet" href="<?php 
         $inPages = strpos($_SERVER['PHP_SELF'], 'pages/') !== false;
         echo ($inPages ? '../assets/css/style.css' : 'assets/css/style.css') . '?v=2.8'; 

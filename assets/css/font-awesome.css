@@ -1,0 +1,150 @@
+/*!
+ * Font Awesome 6.0.0 - Local Version
+ * Font files are loaded locally for offline support
+ */
+
+@font-face {
+  font-family: 'Font Awesome 6 Free';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url('../fonts/fa-solid-900.woff2') format('woff2'),
+       url('../fonts/fa-solid-900.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Font Awesome 6 Brands';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url('../fonts/fa-brands-400.woff2') format('woff2'),
+       url('../fonts/fa-brands-400.ttf') format('truetype');
+}
+
+.fa, .fas, .far, .fal, .fad, .fab {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+}
+
+.fab {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+
+.fa, .fas, .far, .fal, .fad, .fab {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+.fa-home::before { content: "\f015"; }
+.fa-bars::before { content: "\f0c9"; }
+.fa-cash-register::before { content: "\f788"; }
+.fa-shopping-cart::before { content: "\f07a"; }
+.fa-shopping-basket::before { content: "\f291"; }
+.fa-boxes::before { content: "\f468"; }
+.fa-box::before { content: "\f466"; }
+.fa-box-open::before { content: "\f49e"; }
+.fa-cubes::before { content: "\f1cb"; }
+.fa-warehouse::before { content: "\f494"; }
+.fa-truck::before { content: "\f0d1"; }
+.fa-truck-loading::before { content: "\f4de"; }
+.fa-file-invoice::before { content: "\f571"; }
+.fa-file-invoice-dollar::before { content: "\f571"; }
+.fa-file-csv::before { content: "\f6dd"; }
+.fa-users::before { content: "\f0c0"; }
+.fa-user::before { content: "\f007"; }
+.fa-user-circle::before { content: "\f2bd"; }
+.fa-user-cog::before { content: "\f4fe"; }
+.fa-user-plus::before { content: "\f234"; }
+.fa-unlock::before { content: "\f09c"; }
+.fa-ban::before { content: "\f05e"; }
+.fa-chart-bar::before { content: "\f080"; }
+.fa-chart-pie::before { content: "\f200"; }
+.fa-chart-line::before { content: "\f201"; }
+.fa-dollar-sign::before { content: "\f155"; }
+.fa-money-bill-wave::before { content: "\f53a"; }
+.fa-coins::before { content: "\f51e"; }
+.fa-credit-card::before { content: "\f09d"; }
+.fa-plus::before { content: "\f067"; }
+.fa-edit::before { content: "\f044"; }
+.fa-trash::before { content: "\f1f8"; }
+.fa-search::before { content: "\f002"; }
+.fa-filter::before { content: "\f0b0"; }
+.fa-camera::before { content: "\f030"; }
+.fa-barcode::before { content: "\f02a"; }
+.fa-qrcode::before { content: "\f029"; }
+.fa-print::before { content: "\f02f"; }
+.fa-download::before { content: "\f019"; }
+.fa-redo::before { content: "\f01e"; }
+.fa-rotate-right::before { content: "\f01e"; }
+.fa-save::before { content: "\f0c7"; }
+.fa-check::before { content: "\f05d"; }
+.fa-times::before { content: "\f00d"; }
+.fa-exclamation-circle::before { content: "\f06a"; }
+.fa-exclamation-triangle::before { content: "\f071"; }
+.fa-triangle-exclamation::before { content: "\f071"; }
+.fa-check-circle::before { content: "\f05d"; }
+.fa-circle-xmark::before { content: "\f057"; }
+.fa-circle-info::before { content: "\f05a"; }
+.fa-info-circle::before { content: "\f05a"; }
+.fa-moon::before { content: "\f186"; }
+.fa-sun::before { content: "\f185"; }
+.fa-cog::before { content: "\f013"; }
+.fa-palette::before { content: "\f53f"; }
+.fa-tools::before { content: "\f7d9"; }
+.fa-chevron-right::before { content: "\f054"; }
+.fa-history::before { content: "\f1da"; }
+.fa-calendar-day::before { content: "\f783"; }
+.fa-hourglass-half::before { content: "\f253"; }
+.fa-pause-circle::before { content: "\f28b"; }
+.fa-times-circle::before { content: "\f057"; }
+.fa-arrow-trend-up::before { content: "\f077"; }
+.fa-tag::before { content: "\f02b"; }
+.fa-sliders-h::before { content: "\f1de"; }
+.fa-exchange-alt::before { content: "\f0ec"; }
+.fa-undo::before { content: "\f0e2"; }
+.fa-undo-alt::before { content: "\f0e2"; }
+.fa-sign-out-alt::before { content: "\f08b"; }
+.fa-sign-in-alt::before { content: "\f090"; }
+.fa-lock::before { content: "\f023"; }
+.fa-code::before { content: "\f121"; }
+.fa-list::before { content: "\f03b"; }
+.fa-star::before { content: "\f005"; }
+.fa-medal::before { content: "\f5a2"; }
+.fa-paper-plane::before { content: "\f1d8"; }
+.fa-eye::before { content: "\f06e"; }
+.fa-envelope-open-text::before { content: "\f658"; }
+.fa-th-large::before { content: "\f009"; }
+.fa-inbox::before { content: "\f01c"; }
+.fa-image::before { content: "\f03e"; }
+.fa-arrow-left::before { content: "\f060"; }
+.fa-spinner::before { content: "\f110"; }
+
+.fa-spin {
+  animation: fa-spin 2s infinite linear;
+}
+
+@keyframes fa-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Additional styles for consistency */
+.fa {
+  display: inline-block;
+  margin-right: 0.25em;
+}
+
+/* For compatibility with existing code */
+i[class^="fa-"] {
+  display: inline-block;
+}

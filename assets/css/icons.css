@@ -1,0 +1,315 @@
+/* Local SVG Icon System */
+
+/* Icon container styling */
+i.fas,
+i[class*="fa-"],
+.icon,
+.local-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    height: 1em;
+    width: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+/* SVG icons styling */
+i.fas svg,
+i[class*="fa-"] svg {
+    width: 100%;
+    height: 100%;
+    fill: currentColor;
+}
+
+/* Icon path mapping using background images with data URIs */
+/* For elements using ::before pseudo-element approach */
+i.fas::before,
+i[class*="fa-"]::before {
+    display: inline-block;
+    content: '';
+    width: 1em;
+    height: 1em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Home icon */
+.fas.fa-home::before,
+i.fa-home::before { background-image: url('../images/icons/fa-home.svg'); }
+
+/* Menu toggle */
+.fas.fa-bars::before,
+i.fa-bars::before { background-image: url('../images/icons/fa-bars.svg'); }
+
+/* Navigation & POS */
+.fas.fa-cash-register::before,
+i.fa-cash-register::before { background-image: url('../images/icons/fa-cash-register.svg'); }
+
+.fas.fa-shopping-cart::before,
+i.fa-shopping-cart::before { background-image: url('../images/icons/fa-shopping-cart.svg'); }
+
+.fas.fa-shopping-basket::before,
+i.fa-shopping-basket::before { background-image: url('../images/icons/fa-shopping-basket.svg'); }
+
+/* Inventory & Products */
+.fas.fa-boxes::before,
+i.fa-boxes::before { background-image: url('../images/icons/fa-boxes.svg'); }
+
+.fas.fa-box::before,
+i.fa-box::before { background-image: url('../images/icons/fa-box.svg'); }
+
+.fas.fa-box-open::before,
+i.fa-box-open::before { background-image: url('../images/icons/fa-box-open.svg'); }
+
+.fas.fa-cubes::before,
+i.fa-cubes::before { background-image: url('../images/icons/fa-cubes.svg'); }
+
+.fas.fa-warehouse::before,
+i.fa-warehouse::before { background-image: url('../images/icons/fa-warehouse.svg'); }
+
+/* Suppliers & Shipping */
+.fas.fa-truck::before,
+i.fa-truck::before { background-image: url('../images/icons/fa-truck.svg'); }
+
+.fas.fa-truck-loading::before,
+i.fa-truck-loading::before { background-image: url('../images/icons/fa-truck-loading.svg'); }
+
+/* Documents */
+.fas.fa-file-invoice::before,
+i.fa-file-invoice::before { background-image: url('../images/icons/fa-file-invoice.svg'); }
+
+.fas.fa-file-invoice-dollar::before,
+i.fa-file-invoice-dollar::before { background-image: url('../images/icons/fa-file-invoice-dollar.svg'); }
+
+.fas.fa-file-csv::before,
+i.fa-file-csv::before { background-image: url('../images/icons/fa-file-csv.svg'); }
+
+/* Users & Permissions */
+.fas.fa-users::before,
+i.fa-users::before { background-image: url('../images/icons/fa-users.svg'); }
+
+.fas.fa-user::before,
+i.fa-user::before { background-image: url('../images/icons/fa-user.svg'); }
+
+.fas.fa-user-circle::before,
+i.fa-user-circle::before { background-image: url('../images/icons/fa-user-circle.svg'); }
+
+.fas.fa-user-cog::before,
+i.fa-user-cog::before { background-image: url('../images/icons/fa-user-cog.svg'); }
+
+.fas.fa-user-plus::before,
+i.fa-user-plus::before { background-image: url('../images/icons/fa-user-plus.svg'); }
+
+.fas.fa-unlock::before,
+i.fa-unlock::before { background-image: url('../images/icons/fa-unlock.svg'); }
+
+.fas.fa-ban::before,
+i.fa-ban::before { background-image: url('../images/icons/fa-ban.svg'); }
+
+/* Reports & Analytics */
+.fas.fa-chart-bar::before,
+i.fa-chart-bar::before { background-image: url('../images/icons/fa-chart-bar.svg'); }
+
+.fas.fa-chart-pie::before,
+i.fa-chart-pie::before { background-image: url('../images/icons/fa-chart-pie.svg'); }
+
+.fas.fa-chart-line::before,
+i.fa-chart-line::before { background-image: url('../images/icons/fa-chart-line.svg'); }
+
+/* Monetary */
+.fas.fa-dollar-sign::before,
+i.fa-dollar-sign::before { background-image: url('../images/icons/fa-dollar-sign.svg'); }
+
+.fas.fa-money-bill-wave::before,
+i.fa-money-bill-wave::before { background-image: url('../images/icons/fa-money-bill-wave.svg'); }
+
+.fas.fa-coins::before,
+i.fa-coins::before { background-image: url('../images/icons/fa-coins.svg'); }
+
+.fas.fa-credit-card::before,
+i.fa-credit-card::before { background-image: url('../images/icons/fa-credit-card.svg'); }
+
+/* Actions */
+.fas.fa-plus::before,
+i.fa-plus::before { background-image: url('../images/icons/fa-plus.svg'); }
+
+.fas.fa-edit::before,
+i.fa-edit::before { background-image: url('../images/icons/fa-edit.svg'); }
+
+.fas.fa-trash::before,
+i.fa-trash::before { background-image: url('../images/icons/fa-trash.svg'); }
+
+.fas.fa-search::before,
+i.fa-search::before { background-image: url('../images/icons/fa-search.svg'); }
+
+.fas.fa-filter::before,
+i.fa-filter::before { background-image: url('../images/icons/fa-filter.svg'); }
+
+.fas.fa-camera::before,
+i.fa-camera::before { background-image: url('../images/icons/fa-camera.svg'); }
+
+.fas.fa-barcode::before,
+i.fa-barcode::before { background-image: url('../images/icons/fa-barcode.svg'); }
+
+.fas.fa-qrcode::before,
+i.fa-qrcode::before { background-image: url('../images/icons/fa-qrcode.svg'); }
+
+.fas.fa-print::before,
+i.fa-print::before { background-image: url('../images/icons/fa-print.svg'); }
+
+.fas.fa-download::before,
+i.fa-download::before { background-image: url('../images/icons/fa-download.svg'); }
+
+.fas.fa-redo::before,
+i.fa-redo::before { background-image: url('../images/icons/fa-redo.svg'); }
+
+.fas.fa-save::before,
+i.fa-save::before { background-image: url('../images/icons/fa-save.svg'); }
+
+.fas.fa-check::before,
+i.fa-check::before { background-image: url('../images/icons/fa-check.svg'); }
+
+.fas.fa-times::before,
+i.fa-times::before { background-image: url('../images/icons/fa-times.svg'); }
+
+/* Status & Alerts */
+.fas.fa-exclamation-circle::before,
+i.fa-exclamation-circle::before { background-image: url('../images/icons/fa-exclamation-circle.svg'); }
+
+.fas.fa-exclamation-triangle::before,
+i.fa-exclamation-triangle::before { background-image: url('../images/icons/fa-exclamation-triangle.svg'); }
+
+.fas.fa-triangle-exclamation::before,
+i.fa-triangle-exclamation::before { background-image: url('../images/icons/fa-triangle-exclamation.svg'); }
+
+.fas.fa-check-circle::before,
+i.fa-check-circle::before { background-image: url('../images/icons/fa-check-circle.svg'); }
+
+.fas.fa-circle-xmark::before,
+i.fa-circle-xmark::before { background-image: url('../images/icons/fa-circle-xmark.svg'); }
+
+.fas.fa-circle-info::before,
+i.fa-circle-info::before { background-image: url('../images/icons/fa-circle-info.svg'); }
+
+.fas.fa-info-circle::before,
+i.fa-info-circle::before { background-image: url('../images/icons/fa-info-circle.svg'); }
+
+/* Theme & Settings */
+.fas.fa-moon::before,
+i.fa-moon::before { background-image: url('../images/icons/fa-moon.svg'); }
+
+.fas.fa-sun::before,
+i.fa-sun::before { background-image: url('../images/icons/fa-sun.svg'); }
+
+.fas.fa-cog::before,
+i.fa-cog::before { background-image: url('../images/icons/fa-cog.svg'); }
+
+.fas.fa-palette::before,
+i.fa-palette::before { background-image: url('../images/icons/fa-palette.svg'); }
+
+.fas.fa-tools::before,
+i.fa-tools::before { background-image: url('../images/icons/fa-tools.svg'); }
+
+.fas.fa-chevron-right::before,
+i.fa-chevron-right::before { background-image: url('../images/icons/fa-chevron-right.svg'); }
+
+/* Time & Status */
+.fas.fa-history::before,
+i.fa-history::before { background-image: url('../images/icons/fa-history.svg'); }
+
+.fas.fa-calendar-day::before,
+i.fa-calendar-day::before { background-image: url('../images/icons/fa-calendar-day.svg'); }
+
+.fas.fa-hourglass-half::before,
+i.fa-hourglass-half::before { background-image: url('../images/icons/fa-hourglass-half.svg'); }
+
+.fas.fa-pause-circle::before,
+i.fa-pause-circle::before { background-image: url('../images/icons/fa-pause-circle.svg'); }
+
+.fas.fa-times-circle::before,
+i.fa-times-circle::before { background-image: url('../images/icons/fa-times-circle.svg'); }
+
+.fas.fa-arrow-trend-up::before,
+i.fa-arrow-trend-up::before { background-image: url('../images/icons/fa-arrow-trend-up.svg'); }
+
+/* Inventory & Stock */
+.fas.fa-tag::before,
+i.fa-tag::before { background-image: url('../images/icons/fa-tag.svg'); }
+
+.fas.fa-sliders-h::before,
+i.fa-sliders-h::before { background-image: url('../images/icons/fa-sliders-h.svg'); }
+
+.fas.fa-exchange-alt::before,
+i.fa-exchange-alt::before { background-image: url('../images/icons/fa-exchange-alt.svg'); }
+
+.fas.fa-undo::before,
+i.fa-undo::before { background-image: url('../images/icons/fa-undo.svg'); }
+
+.fas.fa-undo-alt::before,
+i.fa-undo-alt::before { background-image: url('../images/icons/fa-undo-alt.svg'); }
+
+.fas.fa-sign-out-alt::before,
+i.fa-sign-out-alt::before { background-image: url('../images/icons/fa-sign-out-alt.svg'); }
+
+.fas.fa-sign-in-alt::before,
+i.fa-sign-in-alt::before { background-image: url('../images/icons/fa-sign-in-alt.svg'); }
+
+/* Misc */
+.fas.fa-lock::before,
+i.fa-lock::before { background-image: url('../images/icons/fa-lock.svg'); }
+
+.fas.fa-code::before,
+i.fa-code::before { background-image: url('../images/icons/fa-code.svg'); }
+
+.fas.fa-list::before,
+i.fa-list::before { background-image: url('../images/icons/fa-list.svg'); }
+
+.fas.fa-star::before,
+i.fa-star::before { background-image: url('../images/icons/fa-star.svg'); }
+
+.fas.fa-medal::before,
+i.fa-medal::before { background-image: url('../images/icons/fa-medal.svg'); }
+
+.fas.fa-paper-plane::before,
+i.fa-paper-plane::before { background-image: url('../images/icons/fa-paper-plane.svg'); }
+
+.fas.fa-eye::before,
+i.fa-eye::before { background-image: url('../images/icons/fa-eye.svg'); }
+
+.fas.fa-envelope-open-text::before,
+i.fa-envelope-open-text::before { background-image: url('../images/icons/fa-envelope-open-text.svg'); }
+
+.fas.fa-th-large::before,
+i.fa-th-large::before { background-image: url('../images/icons/fa-th-large.svg'); }
+
+.fas.fa-inbox::before,
+i.fa-inbox::before { background-image: url('../images/icons/fa-inbox.svg'); }
+
+.fas.fa-image::before,
+i.fa-image::before { background-image: url('../images/icons/fa-image.svg'); }
+
+.fas.fa-rotate-right::before,
+i.fa-rotate-right::before { background-image: url('../images/icons/fa-rotate-right.svg'); }
+
+.fas.fa-arrow-left::before,
+i.fa-arrow-left::before { background-image: url('../images/icons/fa-arrow-left.svg'); }
+
+.fas.fa-spinner::before,
+i.fa-spinner::before { background-image: url('../images/icons/fa-spinner.svg'); }
+
+/* Spinner animation */
+i.fa-spinner.fa-spin::before {
+    animation: fa-spin 2s infinite linear;
+}
+
+@keyframes fa-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
