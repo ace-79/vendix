@@ -68,7 +68,7 @@ GitHub automatically extracts and displays images when using relative paths! Her
 
 | Dashboard Overview | Point of Sale (POS) | Activity Logs |
 |:---:|:---:|:---:|
-| <img src="SceenShoots/Dashboard.png" alt="Dashboard" width="100%"> | <img src="SceenShoots/POS.png" alt="POS System" width="100%"> | <img src="SceenShoots/Activity-logs.png" alt="Activity Logs" width="100%"> |
+| <img src="docs/SceenShoots/Dashboard.png" alt="Dashboard" width="100%"> | <img src="docs/SceenShoots/POS.png" alt="POS System" width="100%"> | <img src="docs/SceenShoots/Activity-logs.png" alt="Activity Logs" width="100%"> |
 
 ---
 
